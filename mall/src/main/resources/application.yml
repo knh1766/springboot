@@ -8,3 +8,13 @@ spring:
       suffix: .jsp
 
 
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/metadb
+    username: root
+    password: root1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
