@@ -30,7 +30,7 @@
 <div class="container mt-3">
     <form action="/product" method="post" enctype="application/x-www-form-urlencoded">
         <div class="mb-3 mt-3">
-            <input type="text" class="form-control" placeholder="Enter 상품명" value="바나나gfhfdh" name="name">
+            <input type="text" class="form-control" placeholder="Enter 상품명" value="바나나" name="name">
         </div>
         <div class="mb-3">
             <input type="text" class="form-control" placeholder="Enter 상품가격" value="1000" name="price">
@@ -38,7 +38,7 @@
         <div class="mb-3">
             <input type="text" class="form-control" placeholder="Enter 상품재고"value="50" name="qty">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">상품등록</button>
     </form>
 </div>
 
